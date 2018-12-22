@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Getting started example",
+  "description": "This extension allows users to find new websites based on their interests",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+	"https://*/*",
+	"http://*.restfulservice20180922101720.azurewebsites.net/",
+	"http://*.restfulservice20180922101720.azurewebsites.net/",
+	"<all_urls>",
+	"activeTab",
+	"declarativeContent",
+    "storage",
+    "tabs"
+  ]
+}

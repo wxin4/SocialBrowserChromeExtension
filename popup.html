@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Social Browser and Website Recommendations</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+    <!-- top section is for the like button/keyword form.  Under that will be recommendation div -->
+    <div class="top_section">
+        <h1 class="service" style="font-weight: bold;">Search! Find! Join!</h1>
+
+		<!-- 
+        <select class="selections" style="display:block;">
+            <option value="volvo">Add New Relationships</option>
+            <option value="saab">Add New Websites</option>
+            <option value="opel">Get Similar Websites</option>
+        </select>
+        -->
+
+        <button class="like_button" id="like_button">Let's Go!</button>
+        <hr class="hr"/>
+
+        <div id="keyword_text">
+            <scan class="enter" style="font-weight: bold;">Add a keyword for a more specific search!</scan>
+            <br>
+            <input type="text" id="keyword" value="" placeholder="Example: sports">
+            <button class="key_button" id="key_button">I WANT MORE!</button>
+        </div>
+
+        <div id="submit_test" style="display:none;">
+            <h4 class="begin">How About These Websites?</h4>
+            <p id="result1"></p>
+            <p id="result2"></p>
+            <p id="result3"></p>
+            <p id="result4"></p>
+            <p id="result5"></p>
+            <p id="result6"></p>
+            <p id="result7"></p>
+            <p id="result8"></p>
+            <p id="result9"></p>
+            <p id="result10"></p>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
